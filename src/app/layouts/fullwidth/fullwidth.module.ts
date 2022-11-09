@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FullwidthComponent } from './fullwidth.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { LoginComponent } from '../../modules/login/login.component';
+import { LoginComponent } from '../../views/login/login.component';
 import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({

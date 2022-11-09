@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DefaultComponent } from './layouts/default/default.component';
-import { HomeComponent } from './modules/home/home.component';
-import { PostsComponent } from './modules/posts/posts.component';
+import { HomeComponent } from './views/home/home.component';
+import { PostsComponent } from './views/posts/posts.component';
 import { FullwidthComponent } from './layouts/fullwidth/fullwidth.component';
-import { LoginComponent } from './modules/login/login.component';
+import { LoginComponent } from './views/login/login.component';
 
 const routes: Routes = [{
   path: '',

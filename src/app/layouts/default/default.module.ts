@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DefaultComponent } from './default.component';
-import { HomeComponent } from '../../modules/home/home.component';
-import { PostsComponent } from '../../modules/posts/posts.component';
+import { HomeComponent } from '../../views/home/home.component';
+import { PostsComponent } from '../../views/posts/posts.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule } from '../../shared/shared.module';
