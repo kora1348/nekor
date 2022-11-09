@@ -4,7 +4,8 @@ import { DefaultComponent } from './layouts/default/default.component';
 import { HomeComponent } from './views/home/home.component';
 import { PostsComponent } from './views/posts/posts.component';
 import { FullwidthComponent } from './layouts/fullwidth/fullwidth.component';
-import { LoginComponent } from './views/login/login.component';
+import { SigninComponent } from './views/signin/signin.component';
+
 
 const routes: Routes = [{
   path: '',
@@ -21,8 +22,8 @@ const routes: Routes = [{
   component: FullwidthComponent,
   children: [
     {
-      path: 'login',
-      component: LoginComponent
+      path: 'signin',
+      component: SigninComponent
     }
   ]
 }];
