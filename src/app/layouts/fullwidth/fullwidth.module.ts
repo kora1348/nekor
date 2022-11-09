@@ -4,7 +4,8 @@ import { FullwidthComponent } from './fullwidth.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule } from '../../shared/shared.module';
-import { SigninComponent } from 'src/app/views/views/signin/signin.component';
+import { SigninComponent } from 'src/app/views/identity/views/signin/signin.component';
+
 
 @NgModule({
   declarations: [
